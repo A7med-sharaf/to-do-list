@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List </title>
+    <link rel="stylesheet" href="list.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <script src="list.js" defer></script>
+</head>
+<style>
+
+
+.dd{
+
+display: none;
+
+}
+
+.start{
+
+    color: orange;
+    opacity:2;
+}
+.s{
+
+   color: rgb(245, 244, 244, 0.5);
+   opacity: 2;
+
+}
+</style>
+
+<body>
+
+    <h1> To Do list </h1>
+
+ <section id="container">
+        <div class="task">
+            <i class="fa-solid fa-star opicty icon"></i>
+            <p class="text">
+                task1
+            </p>
+            <div>
+               
+            <i class="fa-regular fa-trash-can trash icon" class="full"></i> 
+            <i class="fa-sharp fa-solid fa-face-angry angry icon"></i>
+            <!-- <i class="fa-solid fa-heart icon"></i> -->
+            </div>
+           
+        </div>
+
+        <div class="task">
+            <i class="fa-solid fa-star opicty icon"></i>
+            <p class="text">
+                task2
+            </p>
+            <div>
+                
+            <i class="fa-regular fa-trash-can trash icon"></i> 
+            <i class="fa-sharp fa-solid fa-face-angry angry icon"></i>
+            <!-- <i class="fa-solid fa-heart icon"></i> -->
+            </div>
+            
+        </div>
+    </section>
+        <h2> what more ?</h2>
+        <form name="form">
+            <input  type="text " placeholder="new to do list"  name="text">
+            <button id="go"><i class="fa-solid fa-upload click"></i></button>
+        </form>
+
+  
+
+</body>
+
+</html>
